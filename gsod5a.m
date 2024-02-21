@@ -1,5 +1,5 @@
 function y = gsod5a(x_alt,x_ust)
-%Altın bölme araması
+%AltÄ±n bÃ¶lme aramasÄ± (Golden section search)
 
 R = (sqrt(5) - 1)/2;
 hata = 0.001;
