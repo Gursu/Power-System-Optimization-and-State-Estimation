@@ -1,10 +1,11 @@
 function deger = gsod7a(x1, x2, y1, y2, tekrar)
-%Rastgele arama
-
-%x1: x aramasý için alt sýnýr
-%x2: x aramasý için üst sýnýr
-%y1: y aramasý için alt sýnýr
-%y2: y aramasý için üst sýnýr
+% function deger = gsod7a(x1, x2, y1, y2, tekrar)
+% Rastgele arama
+% 
+% x1: x aramasý için alt sýnýr
+% x2: x aramasý için üst sýnýr
+% y1: y aramasý için alt sýnýr
+% y2: y aramasý için üst sýnýr
 
 fmaks = -1e+9;
 
@@ -23,6 +24,6 @@ for p = 1:tekrar
 
 end
 
-deger = [x_opt, y_opt, fmaks]
+deger = [x_opt, y_opt, fmaks];
 
 end

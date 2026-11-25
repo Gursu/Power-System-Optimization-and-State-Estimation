@@ -1,5 +1,10 @@
 function y = gsod5a(x_alt,x_ust)
-%Altın bölme araması (Golden section search)
+% function y = gsod5a(x_alt,x_ust)
+% x_alt: alt sınır (x)
+% x_ust: üst sınır (x)
+% y: çözüm değeri (x)
+%
+% Altın bölme araması (Golden section search)
 
 R = (sqrt(5) - 1)/2;
 hata = 0.001;
